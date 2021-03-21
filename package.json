@@ -1,0 +1,24 @@
+{
+  "name": "jogo_da_memoria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start": "tsc -w",
+    "build-dev": "webpack --config webpack.config.js",
+    "build-prod": "cross-env NODE_ENV=production webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "]"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babili-webpack-plugin": "^0.1.1",
+    "cross-env": "^5.0.1",
+    "typescript": "^2.3.2",
+    "webpack": "^3.1.0"
+  }
+}
